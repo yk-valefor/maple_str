@@ -1,0 +1,155 @@
+body {
+  background-image: url(background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+  background-color: black;
+  color: white;
+  height: 120px;
+  width: 100%;
+  opacity: 0.9;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+}
+
+header .header-container {
+  height: 120px;
+}
+
+header .header-container .header-logo {
+  padding: 30px 50px;
+  float: left;
+  font-family: 'Carattere', cursive;
+  font-size: 50px;
+}
+
+header .header-container .header-menu {
+  margin-top: 40px;
+  padding: 15px 50px;
+  float: right;
+  opacity: 0.95;
+}
+
+header .header-container .header-menu li {
+  float: left;
+  padding: 0 50px;
+}
+
+.top-wrapper {
+  margin: 200px 150px;
+}
+
+.top-wrapper .top-back {
+  margin: 0 auto;
+  background-image: url(maple.png);
+  height: 768px;
+  width: 1366px;
+}
+
+.top-wrapper .top-back .top {
+  margin: 0 auto;
+  height: 768px;
+  width: 1366px;
+  opacity: 0.5;
+  background-color: black;
+  display: none;
+  text-align: center;
+}
+
+.top-wrapper .top-back .top h1 {
+  font-family: 'Carattere', cursive;
+  font-size: 200px;
+  color: white;
+}
+
+.top-wrapper .top-back .top h2 {
+  color: white;
+  font-family: 'Carattere', cursive;
+  font-size: 90px;
+  padding-top: 40px;
+}
+
+.top-wrapper .top-back .top p {
+  color: white;
+}
+
+.wrapper {
+  height: 1200px;
+  background-color: #f1e3cd;
+  opacity: 0.8;
+  margin-top: 300px;
+  z-index: 1;
+}
+
+.wrapper .about {
+  padding: 100px;
+}
+
+.wrapper .about .about-top {
+  text-align: center;
+}
+
+.wrapper .about .about-top h1 {
+  font-size: 50px;
+  padding: 0 0 20px 0;
+}
+
+.wrapper .about .about-top p {
+  line-height: 30px;
+}
+
+.wrapper .about .tweet_maple {
+  margin-top: 80px;
+  width: 100%;
+  position: relative;
+}
+
+.wrapper .about .tweet_maple img {
+  position: absolute;
+  top: 0;
+  right: 210px;
+}
+
+.wrapper .about .tweet_maple span {
+  position: absolute;
+  top: 14px;
+  right: 225px;
+}
+
+.wrapper .about .tweet_maple span .twitter-timeline {
+  border-radius: 35px;
+}
+
+.wrapper .works {
+  padding: 100px;
+  text-align: center;
+}
+
+.wrapper .works h1 {
+  font-size: 50px;
+  padding: 0 0 20px 0;
+}
+
+.wrapper .contact {
+  padding: 100px;
+  text-align: center;
+}
+
+.wrapper .contact h1 {
+  font-size: 50px;
+  padding: 0 0 20px 0;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 300px;
+  width: 100%;
+  opacity: 0.9;
+  margin: 300px 0 0 0;
+}
+/*# sourceMappingURL=style.css.map */

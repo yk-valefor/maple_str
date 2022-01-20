@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    $height: 120px;
+    background-color: black;
+    color: white;
+    height: $height;
+    width: 100%;
+    opacity: 0.9;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+
+    .header-container {
+        height: $height;
+
+        .header-logo {
+            padding: 30px 50px;
+            float: left;
+            font-family: 'Carattere', cursive;
+            font-size: 50px;
+        }
+
+        .header-menu {
+            margin-top: 40px;
+            padding: 15px 50px;
+            float: right;
+            opacity: 0.95;
+
+            li {
+                float: left;
+                padding: 0 50px;
+                
+            }
+        }
+    }
+}
+
+.top-wrapper {
+margin: 200px 150px;
+
+    .top-back {
+        margin: 0 auto;
+        background-image: url(maple.png);
+        height: 768px;
+        width: 1366px;
+        
+
+        .top {
+            margin: 0 auto;
+            height: 768px;
+            width: 1366px;
+            opacity: 0.5;
+            background-color: black;
+            display: none;
+            text-align: center;
+
+            h1 {
+                font-family: 'Carattere', cursive;
+                font-size: 200px;
+                color: white;
+            }
+
+            h2 {
+                color: white;
+                font-family: 'Carattere', cursive;
+                font-size: 90px;
+                padding-top: 40px;
+            }
+
+            p {
+                color: white;
+            }
+        }
+    }
+}
+
+
+.wrapper {
+    height: 1200px;
+    background-color: rgb(241, 227, 205);
+    opacity: 0.8;
+    margin-top: 300px;
+    z-index: 1;
+
+    .about {
+        padding: 100px;
+        
+        .about-top {
+            text-align: center;
+
+            h1 {
+                font-size: 50px;
+                padding: 0 0 20px 0;
+            }
+
+            p {
+                line-height: 30px;
+            }
+        }
+
+        .tweet_maple {
+            margin-top: 80px;
+            width: 100%;
+            position: relative;
+
+            img {
+                position: absolute;
+                top: 0;
+                right: 210px;
+            }
+
+            span {
+                position: absolute;
+                top: 14px;
+                right: 225px;
+                
+                .twitter-timeline {
+                    border-radius: 35px;
+                }
+            }
+
+        }
+      }
+
+      .works {
+        padding: 100px;
+        text-align: center;
+
+        h1 {
+            font-size: 50px;
+            padding: 0 0 20px 0;
+        }
+      }
+
+      .contact {
+        padding: 100px;
+        text-align: center;
+
+        h1 {
+            font-size: 50px;
+            padding: 0 0 20px 0;
+        }
+      }
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 300px;
+    width: 100%;
+    opacity: 0.9;
+    margin: 300px 0 0 0;
+}
