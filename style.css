@@ -23,7 +23,7 @@ header .header-container {
 header .header-container .header-logo {
   padding: 30px 50px;
   float: left;
-  font-family: 'Carattere', cursive;
+  font-family: "Carattere", cursive;
   font-size: 50px;
 }
 
@@ -61,20 +61,17 @@ header .header-container .header-menu li {
 }
 
 .top-wrapper .top-back .top h1 {
-  font-family: 'Carattere', cursive;
-  font-size: 200px;
   color: white;
+  font-family: "Carattere", cursive;
+  font-size: 200px;
+  padding-top: 50px;
 }
 
 .top-wrapper .top-back .top h2 {
   color: white;
-  font-family: 'Carattere', cursive;
+  font-family: "Carattere", cursive;
   font-size: 90px;
-  padding-top: 40px;
-}
-
-.top-wrapper .top-back .top p {
-  color: white;
+  padding-top: 100px;
 }
 
 .wrapper {
