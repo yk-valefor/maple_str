@@ -148,7 +148,6 @@ header .header-container .header-menu li {
 
 .wrapper .contact input[type="text"] {
   text-align: left;
-  width: 25%;
   border: 2px solid #575757;
   border-radius: 4px;
   margin: 8px 0;
@@ -190,7 +189,6 @@ header .header-container .header-menu li {
 
 .wrapper .contact textarea[type="text"] {
   text-align: left;
-  width: 25%;
   height: calc(1.8em * 5);
   line-height: 1.8;
   border: 2px solid #575757;
