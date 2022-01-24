@@ -18,6 +18,11 @@ header {
   position: fixed;
   top: 0;
 
+  a:hover {
+    text-decoration: none;
+    color: white;
+  }
+
   .header-container {
     height: $height;
 
@@ -144,13 +149,13 @@ header {
 
     input[type="text"] {
       text-align: left;
-      width: 50%;
+      width: 25%;
       border: 2px solid rgb(87, 87, 87);
       border-radius: 4px;
       margin: 8px 0;
       outline: none;
       padding: 8px;
-      box-sizing: border-box;
+      box-sizing: content-box;
       transition: 0.3s;
     }
 
@@ -182,13 +187,15 @@ header {
 
     textarea[type="text"] {
       text-align: left;
-      width: 50%;
+      width: 25%;
+      height: calc(1.8em * 5);
+      line-height: 1.8;
       border: 2px solid rgb(87, 87, 87);
       border-radius: 4px;
       margin: 8px 0;
       outline: none;
       padding: 8px;
-      box-sizing: border-box;
+      box-sizing: content-box;
       transition: 0.3s;
     }
 
