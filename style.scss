@@ -147,67 +147,93 @@ header {
       text-align: center;
     }
 
-    input[type="text"] {
-      text-align: left;
-      border: 2px solid rgb(87, 87, 87);
-      border-radius: 4px;
-      margin: 8px 0;
-      outline: none;
-      padding: 8px;
-      box-sizing: content-box;
-      transition: 0.3s;
-    }
+    .contact-contents {
+      margin: 0 auto;
+      .inputArea {
+        input[type="text"] {
+          text-align: left;
+          border: 2px solid rgb(87, 87, 87);
+          border-radius: 4px;
+          width: 100%;
+          margin: 8px 0;
+          outline: none;
+          padding: 8px;
+          box-sizing: content-box;
+          transition: 0.3s;
+        }
 
-    input[type="text"]:focus {
-      border-color: rgb(14, 0, 0);
-      box-shadow: 0 0 8px 0 rgb(14, 0, 0);
-    }
+        input[type="text"]:focus {
+          border-color: rgb(14, 0, 0);
+          box-shadow: 0 0 8px 0 rgb(14, 0, 0);
+        }
 
-    .inputWithIcon input[type="text"] {
-      padding-left: 40px;
-    }
+        .inputWithIcon input[type="text"] {
+          padding-left: 40px;
+        }
 
-    .inputWithIcon {
-      position: relative;
-    }
+        .inputWithIcon {
+          position: relative;
+        }
 
-    .inputWithIcon i {
-      position: absolute;
-      left: 0;
-      top: 8px;
-      padding: 9px 8px;
-      color: #aaa;
-      transition: 0.3s;
-    }
+        .inputWithIcon i {
+          position: absolute;
+          left: 0;
+          top: 8px;
+          padding: 9px 8px;
+          color: #aaa;
+          transition: 0.3s;
+        }
 
-    .inputWithIcon input[type="text"]:focus + i {
-      color: rgb(14, 0, 0);
-    }
+        .inputWithIcon input[type="text"]:focus + i {
+          color: rgb(14, 0, 0);
+        }
 
-    textarea[type="text"] {
-      text-align: left;
-      height: calc(1.8em * 5);
-      line-height: 1.8;
-      border: 2px solid rgb(87, 87, 87);
-      border-radius: 4px;
-      margin: 8px 0;
-      outline: none;
-      padding: 8px;
-      box-sizing: content-box;
-      transition: 0.3s;
-    }
+        textarea[type="text"] {
+          text-align: left;
+          height: calc(1.8em * 8);
+          line-height: 1.8;
+          border: 2px solid rgb(87, 87, 87);
+          border-radius: 4px;
+          width: 100%;
+          margin: 8px 0;
+          outline: none;
+          padding: 8px;
+          box-sizing: content-box;
+          transition: 0.3s;
+        }
 
-    textarea[type="text"]:focus {
-      border-color: rgb(14, 0, 0);
-      box-shadow: 0 0 8px 0 rgb(14, 0, 0);
-    }
+        textarea[type="text"]:focus {
+          border-color: rgb(14, 0, 0);
+          box-shadow: 0 0 8px 0 rgb(14, 0, 0);
+        }
 
-    .inputWithIcon textarea[type="text"] {
-      padding-left: 40px;
-    }
+        .inputWithIcon textarea[type="text"] {
+          padding-left: 40px;
+        }
 
-    .inputWithIcon textarea[type="text"]:focus + i {
-      color: rgb(14, 0, 0);
+        .inputWithIcon textarea[type="text"]:focus + i {
+          color: rgb(14, 0, 0);
+        }
+      }
+
+      .follow_me {
+        border-width: 1px; //あとで調整
+        margin: 20px 0 0 100px; //あとで調整
+
+        h1 {
+          border-width: 0 0 2px 0;
+          font-family: "Pacifico", cursive;
+          font-size: 64px;
+        }
+
+        p {
+          text-align: center;
+
+          i {
+            margin: 30px 30px 0 0;
+          }
+        }
+      }
     }
   }
 }
