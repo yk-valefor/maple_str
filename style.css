@@ -87,70 +87,76 @@ header .header-container .header-menu li {
   z-index: 1;
 }
 
-.wrapper .about {
+.about {
   padding: 100px;
 }
 
-.wrapper .about .about-top {
+.about .about-top {
   text-align: center;
 }
 
-.wrapper .about .about-top h1 {
+.about .about-top h1 {
   font-size: 50px;
   padding: 0 0 20px 0;
 }
 
-.wrapper .about .about-top p {
+.about .about-top p {
   line-height: 30px;
 }
 
-.wrapper .about .tweet_maple {
+.about .tweet_maple {
   margin-top: 80px;
   width: 100%;
   position: relative;
 }
 
-.wrapper .about .tweet_maple img {
+.about .tweet_maple img {
   position: absolute;
   top: 0;
   right: 210px;
 }
 
-.wrapper .about .tweet_maple span {
+.about .tweet_maple span {
   position: absolute;
   top: 14px;
   right: 225px;
 }
 
-.wrapper .about .tweet_maple span .twitter-timeline {
+.about .tweet_maple span .twitter-timeline {
   border-radius: 35px;
 }
 
-.wrapper .works {
+.works {
   padding: 100px;
   text-align: center;
 }
 
-.wrapper .works h1 {
+.works h1 {
   font-size: 50px;
   padding: 0 0 20px 0;
 }
 
-.wrapper .contact {
-  padding: 100px;
+.contact_wrapper {
+  height: 650px;
 }
 
-.wrapper .contact h1 {
+.contact_wrapper .contact {
+  padding: 100px;
+  text-align: center;
+}
+
+.contact_wrapper .contact h1 {
   font-size: 50px;
   padding: 0 0 20px 0;
   text-align: center;
 }
 
-.wrapper .contact .contact-contents {
-  margin: 0 auto;
+.contact_wrapper .contact .contact-contents {
+  display: inline-block;
+  width: 900px;
 }
 
-.wrapper .contact .contact-contents .inputArea input[type="text"] {
+.contact_wrapper .contact .contact-contents .inputArea input[type="text"] {
   text-align: left;
   border: 2px solid #575757;
   border-radius: 4px;
@@ -164,21 +170,21 @@ header .header-container .header-menu li {
   transition: 0.3s;
 }
 
-.wrapper .contact .contact-contents .inputArea input[type="text"]:focus {
+.contact_wrapper .contact .contact-contents .inputArea input[type="text"]:focus {
   border-color: #0e0000;
   -webkit-box-shadow: 0 0 8px 0 #0e0000;
           box-shadow: 0 0 8px 0 #0e0000;
 }
 
-.wrapper .contact .contact-contents .inputArea .inputWithIcon input[type="text"] {
+.contact_wrapper .contact .contact-contents .inputArea .inputWithIcon input[type="text"] {
   padding-left: 40px;
 }
 
-.wrapper .contact .contact-contents .inputArea .inputWithIcon {
+.contact_wrapper .contact .contact-contents .inputArea .inputWithIcon {
   position: relative;
 }
 
-.wrapper .contact .contact-contents .inputArea .inputWithIcon i {
+.contact_wrapper .contact .contact-contents .inputArea .inputWithIcon i {
   position: absolute;
   left: 0;
   top: 8px;
@@ -188,11 +194,11 @@ header .header-container .header-menu li {
   transition: 0.3s;
 }
 
-.wrapper .contact .contact-contents .inputArea .inputWithIcon input[type="text"]:focus + i {
+.contact_wrapper .contact .contact-contents .inputArea .inputWithIcon input[type="text"]:focus + i {
   color: #0e0000;
 }
 
-.wrapper .contact .contact-contents .inputArea textarea[type="text"] {
+.contact_wrapper .contact .contact-contents .inputArea textarea[type="text"] {
   text-align: left;
   height: calc(1.8em * 8);
   line-height: 1.8;
@@ -208,37 +214,51 @@ header .header-container .header-menu li {
   transition: 0.3s;
 }
 
-.wrapper .contact .contact-contents .inputArea textarea[type="text"]:focus {
+.contact_wrapper .contact .contact-contents .inputArea textarea[type="text"]:focus {
   border-color: #0e0000;
   -webkit-box-shadow: 0 0 8px 0 #0e0000;
           box-shadow: 0 0 8px 0 #0e0000;
 }
 
-.wrapper .contact .contact-contents .inputArea .inputWithIcon textarea[type="text"] {
+.contact_wrapper .contact .contact-contents .inputArea .inputWithIcon textarea[type="text"] {
   padding-left: 40px;
 }
 
-.wrapper .contact .contact-contents .inputArea .inputWithIcon textarea[type="text"]:focus + i {
+.contact_wrapper .contact .contact-contents .inputArea .inputWithIcon textarea[type="text"]:focus + i {
   color: #0e0000;
 }
 
-.wrapper .contact .contact-contents .follow_me {
-  border-width: 1px;
+.contact_wrapper .contact .contact-contents .follow_me {
   margin: 20px 0 0 100px;
 }
 
-.wrapper .contact .contact-contents .follow_me h1 {
+.contact_wrapper .contact .contact-contents .follow_me h1 {
   border-width: 0 0 2px 0;
   font-family: "Pacifico", cursive;
   font-size: 64px;
 }
 
-.wrapper .contact .contact-contents .follow_me p {
+.contact_wrapper .contact .contact-contents .follow_me p {
   text-align: center;
 }
 
-.wrapper .contact .contact-contents .follow_me p i {
+.contact_wrapper .contact .contact-contents .follow_me p span {
+  display: inline-block;
+}
+
+.contact_wrapper .contact .contact-contents .follow_me p i {
   margin: 30px 30px 0 0;
+  color: #333;
+}
+
+.contact_wrapper .contact .contact-contents .follow_me p a i:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.contact_wrapper .contact .contact-contents .follow_me p a:visited {
+  color: #333;
+  text-decoration: none;
 }
 
 footer {

@@ -14,3 +14,17 @@ $(".top-wrapper").hover(
     $(".top").fadeOut(400);
   }
 );
+
+//contactアイコン
+$(".follow_icon").hover(
+  function () {
+    $(this).addClass(
+      "animate__animated animate__heartBeat animate__slow animate__infinite	infinite"
+    );
+  },
+  function () {
+    $(this).removeClass(
+      "animate__animated animate__heartBeat animate__slow animate__infinite	infinite"
+    );
+  }
+);
