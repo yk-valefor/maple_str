@@ -219,6 +219,17 @@ header {
         .inputWithIcon textarea[type="text"]:focus + i {
           color: rgb(14, 0, 0);
         }
+
+        button {
+          border-width: 1px;
+          padding: 5px 30px;
+        }
+
+        button:hover {
+          color: white;
+          background-color: black;
+          transition: 0.3s;
+        }
       }
 
       .follow_me {

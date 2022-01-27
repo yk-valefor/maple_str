@@ -228,6 +228,18 @@ header .header-container .header-menu li {
   color: #0e0000;
 }
 
+.contact_wrapper .contact .contact-contents .inputArea button {
+  border-width: 1px;
+  padding: 5px 30px;
+}
+
+.contact_wrapper .contact .contact-contents .inputArea button:hover {
+  color: white;
+  background-color: black;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
 .contact_wrapper .contact .contact-contents .follow_me {
   margin: 20px 0 0 100px;
 }
