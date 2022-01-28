@@ -137,7 +137,7 @@ header .header-container .header-menu li {
 }
 
 .contact_wrapper {
-  height: 650px;
+  height: 695px;
 }
 
 .contact_wrapper .contact {
@@ -231,6 +231,7 @@ header .header-container .header-menu li {
 .contact_wrapper .contact .contact-contents .inputArea button {
   border-width: 1px;
   padding: 5px 30px;
+  margin: 8px 0 8px 40px;
 }
 
 .contact_wrapper .contact .contact-contents .inputArea button:hover {
