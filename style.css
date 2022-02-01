@@ -136,6 +136,17 @@ header .header-container .header-menu li {
   padding: 0 0 20px 0;
 }
 
+.works .skillset img {
+  width: 100px;
+  display: inline-block;
+}
+
+.works .skillset h2 {
+  font-size: 20px;
+  font-weight: bold;
+  border-top-width: 1px;
+}
+
 .contact_wrapper {
   height: 695px;
 }
