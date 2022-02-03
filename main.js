@@ -28,3 +28,27 @@ $(".follow_icon").hover(
     );
   }
 );
+
+// Vue
+const myAllSkills = [
+  {
+    id: 1,
+    icon: "./icon/html-5.svg",
+    skillname: "HTML5",
+    text: "小学生の時に個人サイトを作ったりしていました。簡単なものはフルスクラッチで書けます。テンプレートも必要な箇所を確認し、カスタマイズできます。",
+  },
+  {
+    id: 2,
+    icon: "./icon/css-3.svg",
+    skillname: "CSS3",
+    text: "小学生の時に個人サイトを作ったりしていました。簡単なものはフルスクラッチで書けます。テンプレートも必要な箇所を確認し、カスタマイズできます。",
+  },
+];
+
+const app = Vue.createApp({
+  data() {
+    return {
+      myAllSkills: myAllSkills,
+    };
+  },
+}).mount("#myskill");

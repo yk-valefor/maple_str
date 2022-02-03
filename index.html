@@ -94,9 +94,16 @@
       <div class="wrapper">
         <div class="works">
           <h1>WORKS & SKILL</h1>
-          <div class="skillset">
-            <img src="icon\html-5.svg" />
-            <h2>HTML5</h2>
+          <div class="myskill">
+            <ul id="myskill">
+              <li v-for="myAllSkill in myAllSkills" v-bind:key="myAllSkills.id">
+                <img v-bind:src="myAllSkill.icon" />
+                <div class="skillTexts">
+                  <h2>{{ myAllSkill.skillname }}</h2>
+                  <p>{{ myAllSkill.text }}</p>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

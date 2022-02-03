@@ -136,15 +136,23 @@ header .header-container .header-menu li {
   padding: 0 0 20px 0;
 }
 
-.works .skillset img {
+.works .myskill #myskill li {
+  width: 180px;
+  float: left;
+  margin-right: 20px;
+}
+
+.works .myskill #myskill img {
   width: 100px;
   display: inline-block;
 }
 
-.works .skillset h2 {
+.works .myskill #myskill h2 {
   font-size: 20px;
   font-weight: bold;
-  border-top-width: 1px;
+  border-top-width: 2px;
+  margin-top: 10px;
+  padding: 5px;
 }
 
 .contact_wrapper {
