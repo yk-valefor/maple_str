@@ -92,6 +92,7 @@ header {
 
 .about {
   padding: 100px;
+  height: 1200px;
 
   .about-top {
     text-align: center;
@@ -103,12 +104,14 @@ header {
 
     p {
       line-height: 30px;
+      font-size: 18px;
     }
   }
 
   .tweet_maple {
     margin-top: 80px;
     width: 100%;
+    height: 800px;
     position: relative;
 
     img {
@@ -137,32 +140,53 @@ header {
     font-size: 50px;
     padding: 0 0 20px 0;
   }
-  .myskill {
-    #myskill {
-      li {
-        width: 180px;
-        float: left;
-        margin-right: 20px;
-      }
+
+  p {
+    line-height: 30px;
+    font-size: 18px;
+  }
+
+  #myskill {
+    margin-top: 80px;
+    padding: 0 100px;
+    width: 1400px;
+    height: 400px;
+    display: flex;
+
+    .skill-list {
+      width: 180px;
+      margin: 0 30px;
+      display: inline-block;
 
       img {
-        width: 100px;
+        height: 120px;
         display: inline-block;
       }
 
-      h2 {
-        font-size: 20px;
-        font-weight: bold;
-        border-top-width: 2px;
+      .skillTexts {
         margin-top: 10px;
-        padding: 5px;
+        height: 180px;
+        display: inline-block;
+
+        h2 {
+          font-size: 20px;
+          font-weight: bold;
+          border-top-width: 2px;
+          padding: 5px;
+        }
+
+        p {
+          text-align: justify;
+          font-size: 15px;
+          line-height: 25px;
+        }
       }
     }
   }
 }
 
 .contact_wrapper {
-  height: 695px;
+  height: 800px;
   .contact {
     padding: 100px;
     text-align: center;
@@ -173,9 +197,15 @@ header {
       text-align: center;
     }
 
+    p {
+      line-height: 30px;
+      font-size: 18px;
+    }
+
     .contact-contents {
       display: inline-block;
       width: 900px;
+      margin-top: 80px;
       .inputArea {
         input[type="text"] {
           text-align: left;

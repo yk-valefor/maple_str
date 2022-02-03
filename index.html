@@ -94,16 +94,20 @@
       <div class="wrapper">
         <div class="works">
           <h1>WORKS & SKILL</h1>
-          <div class="myskill">
-            <ul id="myskill">
-              <li v-for="myAllSkill in myAllSkills" v-bind:key="myAllSkills.id">
+          <p>私のスキルと作品です。作品はまだ少ないですが、今後もどんどん追加予定です。</p>
+            <div id="myskill" class="skill">
+              <div
+                v-for="myAllSkill in myAllSkills"
+                v-bind:key="myAllSkills.id"
+                class="skill-list"
+              >
                 <img v-bind:src="myAllSkill.icon" />
-                <div class="skillTexts">
-                  <h2>{{ myAllSkill.skillname }}</h2>
-                  <p>{{ myAllSkill.text }}</p>
-                </div>
-              </li>
-            </ul>
+                  <div class="skillTexts">
+                    <h2>{{ myAllSkill.skillname }}</h2>
+                    <p>{{ myAllSkill.text }}</p>
+                  </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -112,6 +116,7 @@
       <div class="wrapper contact_wrapper">
         <div class="contact">
           <h1>CONTACT</h1>
+          <p>何かあればメッセージをお願いします。</p>
           <div class="container">
             <div class="row contact-contents">
               <div class="inputArea col-md-5">

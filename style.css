@@ -89,6 +89,7 @@ header .header-container .header-menu li {
 
 .about {
   padding: 100px;
+  height: 1200px;
 }
 
 .about .about-top {
@@ -102,11 +103,13 @@ header .header-container .header-menu li {
 
 .about .about-top p {
   line-height: 30px;
+  font-size: 18px;
 }
 
 .about .tweet_maple {
   margin-top: 80px;
   width: 100%;
+  height: 800px;
   position: relative;
 }
 
@@ -136,27 +139,53 @@ header .header-container .header-menu li {
   padding: 0 0 20px 0;
 }
 
-.works .myskill #myskill li {
-  width: 180px;
-  float: left;
-  margin-right: 20px;
+.works p {
+  line-height: 30px;
+  font-size: 18px;
 }
 
-.works .myskill #myskill img {
-  width: 100px;
+.works #myskill {
+  margin-top: 80px;
+  padding: 0 100px;
+  width: 1400px;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.works #myskill .skill-list {
+  width: 180px;
+  margin: 0 30px;
   display: inline-block;
 }
 
-.works .myskill #myskill h2 {
+.works #myskill .skill-list img {
+  height: 120px;
+  display: inline-block;
+}
+
+.works #myskill .skill-list .skillTexts {
+  margin-top: 10px;
+  height: 180px;
+  display: inline-block;
+}
+
+.works #myskill .skill-list .skillTexts h2 {
   font-size: 20px;
   font-weight: bold;
   border-top-width: 2px;
-  margin-top: 10px;
   padding: 5px;
 }
 
+.works #myskill .skill-list .skillTexts p {
+  text-align: justify;
+  font-size: 15px;
+  line-height: 25px;
+}
+
 .contact_wrapper {
-  height: 695px;
+  height: 800px;
 }
 
 .contact_wrapper .contact {
@@ -170,9 +199,15 @@ header .header-container .header-menu li {
   text-align: center;
 }
 
+.contact_wrapper .contact p {
+  line-height: 30px;
+  font-size: 18px;
+}
+
 .contact_wrapper .contact .contact-contents {
   display: inline-block;
   width: 900px;
+  margin-top: 80px;
 }
 
 .contact_wrapper .contact .contact-contents .inputArea input[type="text"] {
