@@ -94,11 +94,12 @@
       <div class="wrapper">
         <div class="works">
           <h1>WORKS & SKILL</h1>
-          <p>私のスキルと作品です。作品はまだ少ないですが、今後もどんどん追加予定です。</p>
+          <p>私のスキルと制作物です。作品はまだ少ないですが、今後もどんどん追加予定です。</p>
+          <h2 class="works_title">Skill</h2>
             <div id="myskill" class="skill">
               <div
                 v-for="myAllSkill in myAllSkills"
-                v-bind:key="myAllSkills.id"
+                v-bind:key="myAllSkill.id"
                 class="skill-list"
               >
                 <img v-bind:src="myAllSkill.icon" />
@@ -106,6 +107,18 @@
                     <h2>{{ myAllSkill.skillname }}</h2>
                     <p>{{ myAllSkill.text }}</p>
                   </div>
+              </div>
+            </div>
+            <h2 class="works_title">Works</h2>
+            <div id="mywork">
+              <div
+                v-for="myAllWork in myAllWorks"
+                v-bind:key="myAllWork.id"
+                class=""
+              >
+                <a v-bind:href="myAllWork.url" target="_blank">
+                  <img v-bind:src="myAllWork.image" />
+                </a>    
               </div>
             </div>
           </div>

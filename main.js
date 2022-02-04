@@ -29,7 +29,7 @@ $(".follow_icon").hover(
   }
 );
 
-// Vue
+// Vue myskill
 const myAllSkills = [
   {
     id: 1,
@@ -63,10 +63,29 @@ const myAllSkills = [
   },
 ];
 
-const app = Vue.createApp({
+const app1 = Vue.createApp({
   data() {
     return {
       myAllSkills: myAllSkills,
     };
   },
 }).mount("#myskill");
+
+// Vue myworks
+
+const myAllWorks = [
+  {
+    id: 1,
+    url: "#",
+    image: "site mockup.png",
+    title: "Maple Street",
+  },
+];
+
+const app2 = Vue.createApp({
+  data() {
+    return {
+      myAllWorks: myAllWorks,
+    };
+  },
+}).mount("#mywork");
