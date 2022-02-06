@@ -91,7 +91,7 @@
       </div>
     </section>
     <section id="works">
-      <div class="wrapper">
+      <div class="wrapper worksskill_wrapper">
         <div class="works">
           <h1>WORKS & SKILL</h1>
           <p>私のスキルと制作物です。作品はまだ少ないですが、今後もどんどん追加予定です。</p>
@@ -114,11 +114,17 @@
               <div
                 v-for="myAllWork in myAllWorks"
                 v-bind:key="myAllWork.id"
-                class=""
+                class="work-list"
               >
                 <a v-bind:href="myAllWork.url" target="_blank">
-                  <img v-bind:src="myAllWork.image" />
-                </a>    
+                  <div class="mywork_image">
+                    <img v-bind:src="myAllWork.image" />
+                  </div>
+                </a>
+                <div class="workTexts">
+                  <h2>{{myAllWork.title}}</h2>
+                  <p>{{myAllWork.text}}</p>
+                </div>
               </div>
             </div>
           </div>

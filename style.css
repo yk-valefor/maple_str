@@ -129,30 +129,34 @@ header .header-container .header-menu li {
   border-radius: 35px;
 }
 
-.works {
+.worksskill_wrapper {
+  height: 1550px;
+}
+
+.worksskill_wrapper .works {
   padding: 100px;
   text-align: center;
 }
 
-.works h1 {
+.worksskill_wrapper .works h1 {
   font-size: 50px;
   margin: 0 0 20px 0;
 }
 
-.works p {
+.worksskill_wrapper .works p {
   line-height: 30px;
   font-size: 18px;
   margin-bottom: 80px;
 }
 
-.works .works_title {
+.worksskill_wrapper .works .works_title {
   margin-bottom: 20px;
   font-family: "Pacifico", cursive;
   font-size: 50px;
   text-align: center;
 }
 
-.works #myskill {
+.worksskill_wrapper .works #myskill {
   margin: 0 auto;
   padding: 0 100px;
   width: 1400px;
@@ -162,34 +166,64 @@ header .header-container .header-menu li {
   display: flex;
 }
 
-.works #myskill .skill-list {
+.worksskill_wrapper .works #myskill .skill-list {
   width: 180px;
   margin: 0 30px;
   display: inline-block;
 }
 
-.works #myskill .skill-list img {
+.worksskill_wrapper .works #myskill .skill-list img {
   height: 120px;
   display: inline-block;
 }
 
-.works #myskill .skill-list .skillTexts {
+.worksskill_wrapper .works #myskill .skill-list .skillTexts {
   margin-top: 10px;
   height: 180px;
   display: inline-block;
 }
 
-.works #myskill .skill-list .skillTexts h2 {
+.worksskill_wrapper .works #myskill .skill-list .skillTexts h2 {
   font-size: 20px;
   font-weight: bold;
   border-top-width: 2px;
   padding: 5px;
 }
 
-.works #myskill .skill-list .skillTexts p {
+.worksskill_wrapper .works #myskill .skill-list .skillTexts p {
   text-align: justify;
   font-size: 15px;
   line-height: 25px;
+}
+
+.worksskill_wrapper .works #mywork {
+  width: 1400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.worksskill_wrapper .works #mywork .work-list img {
+  width: 550px;
+}
+
+.worksskill_wrapper .works #mywork .work-list .workTexts {
+  width: 550px;
+  padding: 0 100px;
+}
+
+.worksskill_wrapper .works #mywork .work-list .workTexts h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.worksskill_wrapper .works #mywork .work-list .workTexts P {
+  font-size: 15px;
+  line-height: 25px;
+  text-align: justify;
 }
 
 .contact_wrapper {

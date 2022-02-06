@@ -79,6 +79,7 @@ const myAllWorks = [
     url: "#",
     image: "site mockup.png",
     title: "Maple Street",
+    text: "このサイトです。私のポートフォリオサイトになります。デザインから全て考えました。随時更新予定です。",
   },
 ];
 
