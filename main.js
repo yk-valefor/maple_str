@@ -90,3 +90,11 @@ const app2 = Vue.createApp({
     };
   },
 }).mount("#mywork");
+
+// contactフォーム
+const submitButton = document.getElementById("submitButton");
+
+submitButton.addEventListener("click", () => {
+  document.contact_form.submit();
+  document.contact_form.reset();
+});

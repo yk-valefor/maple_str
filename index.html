@@ -150,13 +150,15 @@
                   data-first-entry="0"
                   data-last-entry="3"
                   data-is-first-page="true"
+                  name="contact_form"
                 >
                   <div class="inputWithIcon">
                     <input
                       type="text"
                       placeholder="お名前"
                       name="entry.2005620554"
-                      required="required"
+                      id="contact_name"
+                      required
                     />
                     <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
                   </div>
@@ -166,6 +168,7 @@
                       placeholder="メールアドレス"
                       name="entry.1045781291"
                       required="required"
+                      id="contact_email"
                     />
                     <i
                       class="fa fa-envelope fa-lg fa-fw"
@@ -178,13 +181,12 @@
                       placeholder="メッセージ"
                       name="entry.839337160"
                       required="required"
+                      id="contact_message"
                     ></textarea>
                     <i class="fas fa-comment-dots fa-lg fa-fw"></i>
                   </div>
                   <div class="btn">
-                    <a href="#">
-                      <button type="submit" name="submit">送信</button>
-                    </a>
+                      <button type="button" name="submitButton" id="submitButton">送信</button>
                   </div>
                 </form>
               </div>
