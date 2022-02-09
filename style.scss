@@ -5,6 +5,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  color: rgb(58, 39, 24);
 }
 
 header {
@@ -84,8 +85,7 @@ header {
 
 .wrapper {
   height: 1200px;
-  background-color: rgb(241, 227, 205);
-  opacity: 0.8;
+  background-color: rgba(241, 227, 205, 0.8);
   margin-top: 300px;
   z-index: 1;
 }
@@ -108,13 +108,35 @@ header {
     }
   }
 
-  .tweet_maple {
+  .about_me {
     margin-top: 80px;
     width: 100%;
     height: 800px;
     position: relative;
 
-    img {
+    h2 {
+      font-family: "Pacifico", cursive;
+      font-size: 50px;
+      position: absolute;
+      left: 10%;
+    }
+
+    .image_me {
+      width: 250px;
+      position: absolute;
+      left: 20%;
+      top: 10%;
+    }
+
+    p {
+      position: absolute;
+      left: 10%;
+      top: 50%;
+      width: 40%;
+      font-size: 15px;
+    }
+
+    .tweet_maple {
       position: absolute;
       top: 0;
       right: 210px;
