@@ -17,5 +17,4 @@ It's under development and expected to be frequently updated.
 [Maple](https://twitter.com/MapleSyrup_st)
 
 ## Licence
-
-[MIT](https://github.com/yk-valefor/maple_str/blob/master/LICENSE)
+The source code is licensed [MIT](https://github.com/yk-valefor/maple_str/blob/master/LICENSE) ,except the website content.
