@@ -6,14 +6,14 @@ $('.header-menu a[href*="#"]').click(function () {
 });
 
 //トップ
-/*$(".top-wrapper").hover(
+$(".top").hover(
   function () {
-    $(".top").fadeIn(400);
+    $(".top h1, .top h2").fadeIn(400);
   },
   function () {
-    $(".top").fadeOut(400);
+    $(".top h1, .top h2").fadeOut(400);
   }
-); */
+);
 
 //contactアイコン
 $(".follow_icon").hover(
@@ -77,7 +77,7 @@ const myAllWorks = [
   {
     id: 1,
     url: "#",
-    image: "site mockup.png",
+    image: "images/mysite_mockup.png",
     title: "Maple Street",
     text: "このサイトです。私のポートフォリオサイトになります。デザインから全て考えました。随時更新予定です。",
   },
