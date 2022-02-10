@@ -18,4 +18,4 @@ It's under development and expected to be frequently updated.
 
 ## Licence
 
-[MIT](https://......)
+[MIT](https://github.com/yk-valefor/maple_str/blob/master/LICENSE)
