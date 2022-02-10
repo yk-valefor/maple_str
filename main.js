@@ -6,14 +6,14 @@ $('.header-menu a[href*="#"]').click(function () {
 });
 
 //トップ
-$(".top-wrapper").hover(
+/*$(".top-wrapper").hover(
   function () {
     $(".top").fadeIn(400);
   },
   function () {
     $(".top").fadeOut(400);
   }
-);
+); */
 
 //contactアイコン
 $(".follow_icon").hover(
